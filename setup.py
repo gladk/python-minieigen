@@ -2,7 +2,7 @@ from distutils.core import setup,Extension
 setup(name='minieigen',
 	version='0.2',
 	description='',
-	ext_modules=[Extension('miniEigen',
+	ext_modules=[Extension('minieigen',
 		sources=['src/miniEigen.cpp',
 			'src/double-conversion/bignum.cc',
 			'src/double-conversion/bignum-dtoa.cc',
