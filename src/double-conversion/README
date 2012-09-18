@@ -7,6 +7,3 @@ licensed under the New BSD License.
 The checkout used was the following version:
 
 	git checkout e5b34421b763
-
-The _test.cpp file and Makefile were added, but are actually
-not needed anymore.
