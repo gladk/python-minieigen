@@ -1,4 +1,3 @@
-#from setuptools import setup,Extension
 from distutils.core import setup,Extension
 setup(name='minieigen',
 	version='0.2',

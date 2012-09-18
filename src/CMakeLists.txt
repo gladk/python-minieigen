@@ -3,8 +3,8 @@ SET(DCSRC "double-conversion/bignum.cc;double-conversion/bignum-dtoa.cc;double-c
 ADD_LIBRARY(minieigen SHARED miniEigen.cpp ${DCSRC})
 SET_TARGET_PROPERTIES(minieigen
 PROPERTIES
-    SOVERSION 0.1
-    VERSION 0.1
+    SOVERSION 0.2
+    VERSION 0.2
     OUTPUT_NAME minieigen
     PREFIX ""
 )
