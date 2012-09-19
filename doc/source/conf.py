@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-# miniEigen documentation build configuration file, created by
+# minieigen documentation build configuration file, created by
 # sphinx-quickstart on Thu Feb 16 09:55:33 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -127,7 +127,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'miniEigen'
+project = u'minieigen'
 copyright = u'2012, Václav Šmilauer'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -251,7 +251,7 @@ html_show_sourcelink = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'miniEigendoc'
+htmlhelp_basename = 'minieigendoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -265,7 +265,7 @@ htmlhelp_basename = 'miniEigendoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'miniEigen.tex', u'miniEigen Documentation',
+  ('index', 'minieigen.tex', u'minieigen Documentation',
    u'Václav Šm', 'manual'),
 ]
 
@@ -298,6 +298,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'minieigen', u'miniEigen Documentation',
+    ('index', 'minieigen', u'minieigen Documentation',
      [u'Václav Šmilauer'], 1)
 ]

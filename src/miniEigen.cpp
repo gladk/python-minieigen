@@ -563,7 +563,7 @@ EIG_OP2(Vector2i,__mul__,*,int)  EIG_OP2_INPLACE(Vector2i,__imul__,*=,int) EIG_O
 
 
 BOOST_PYTHON_MODULE(minieigen){
-	py::scope().attr("__doc__")="miniEigen is wrapper for a small part of the `Eigen <http://eigen.tuxfamily.org>`_ library. Refer to its documentation for details. All classes in this module support pickling.";
+	py::scope().attr("__doc__")="minieigen is wrapper for a small part of the `Eigen <http://eigen.tuxfamily.org>`_ library. Refer to its documentation for details. All classes in this module support pickling.";
 
 	py::docstring_options docopt;
 	docopt.enable_all();
